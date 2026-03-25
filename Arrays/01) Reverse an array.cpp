@@ -43,4 +43,3 @@ vector<int> reverseArray(vector<int>& nums) {
 void reverseArray(vector<int>& nums) {
     reverse(nums.begin(), nums.end());
 }
-lol
