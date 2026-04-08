@@ -11,7 +11,7 @@ public:
             if (ans > INT_MAX / 10 || ans < INT_MIN / 10)
                 return 0;
 
-            ans = ans * 10 + digit;
+            ans = ans * 10+ digit;
         }
 
         return ans;
