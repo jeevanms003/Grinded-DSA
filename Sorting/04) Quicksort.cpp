@@ -22,3 +22,74 @@ void quickSort(int arr[], int low, int high) {
         quickSort(arr, pi + 1, high); // Right subarray
     }
 }
+
+🔹 Time Complexity
+Best Case: 
+𝑂
+(
+𝑛
+log
+⁡
+𝑛
+)
+O(nlogn)
+(Pivot divides array into equal halves)
+Average Case: 
+𝑂
+(
+𝑛
+log
+⁡
+𝑛
+)
+O(nlogn)
+Worst Case: 
+𝑂
+(
+𝑛
+2
+)
+O(n
+2
+)
+(When pivot is smallest/largest, e.g., already sorted array)
+🔹 Space Complexity
+𝑂
+(
+log
+⁡
+𝑛
+)
+O(logn) (due to recursion stack in best/average case)
+𝑂
+(
+𝑛
+)
+O(n) in worst case (skewed recursion)
+🔹 Advantages
+Very fast in practice compared to other 
+𝑂
+(
+𝑛
+log
+⁡
+𝑛
+)
+O(nlogn) algorithms
+Uses divide and conquer approach
+In-place sorting (no extra array needed)
+Good cache performance
+Widely used in real-world applications
+🔹 Disadvantages
+Worst case 
+𝑂
+(
+𝑛
+2
+)
+O(n
+2
+) performance
+Not stable (does not preserve order of equal elements)
+Recursive → uses stack memory
+Performance depends heavily on pivot selection
