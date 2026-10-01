@@ -73,3 +73,7 @@ public:
         return xor1 ^ xor2;
     }
 };
+
+int main() {
+    return 0;
+}

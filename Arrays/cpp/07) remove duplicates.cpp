@@ -15,3 +15,7 @@ public:
         return j + 1;  // New length
     }
 };
+
+int main() {
+    return 0;
+}

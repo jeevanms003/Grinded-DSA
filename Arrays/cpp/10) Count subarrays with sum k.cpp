@@ -20,3 +20,7 @@ public:
         return count;
     }
 };
+
+int main() {
+    return 0;
+}

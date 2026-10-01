@@ -27,3 +27,7 @@ class Solution2:
                 result.append(num)
                 
         return result
+
+
+if __name__ == '__main__':
+    pass

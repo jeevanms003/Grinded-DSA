@@ -11,3 +11,7 @@ class Solution:
                 nums[j] = nums[i]
                 
         return j + 1  # New length
+
+
+if __name__ == '__main__':
+    pass

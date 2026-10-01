@@ -13,3 +13,7 @@ class Solution:
             leftSum += nums[i]
 
         return -1  # no equilibrium index
+
+
+if __name__ == '__main__':
+    pass

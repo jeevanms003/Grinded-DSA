@@ -16,3 +16,7 @@ public:
         return {};  // not found (won’t happen in LC)
     }
 };
+
+int main() {
+    return 0;
+}

@@ -18,3 +18,7 @@ public:
         return maxProfit;
     }
 };
+
+int main() {
+    return 0;
+}

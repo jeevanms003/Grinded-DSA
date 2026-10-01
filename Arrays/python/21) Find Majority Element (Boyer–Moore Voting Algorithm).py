@@ -26,3 +26,7 @@ class Solution2:
                 return num
 
         return -1 # safety return
+
+
+if __name__ == '__main__':
+    pass

@@ -21,3 +21,7 @@ public:
         return maxSum;
     }
 };
+
+int main() {
+    return 0;
+}

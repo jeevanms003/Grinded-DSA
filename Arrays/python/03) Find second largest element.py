@@ -37,3 +37,7 @@ def findSecondSmallest(nums: list[int]) -> int:
         return -1
         
     return second
+
+
+if __name__ == '__main__':
+    pass

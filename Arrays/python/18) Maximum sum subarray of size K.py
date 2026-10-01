@@ -18,3 +18,7 @@ class Solution:
             maxSum = max(maxSum, sum_val)
 
         return maxSum
+
+
+if __name__ == '__main__':
+    pass

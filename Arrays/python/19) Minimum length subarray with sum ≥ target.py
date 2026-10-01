@@ -15,3 +15,7 @@ class Solution:
                 left += 1
 
         return 0 if minLen == sys.maxsize else minLen
+
+
+if __name__ == '__main__':
+    pass

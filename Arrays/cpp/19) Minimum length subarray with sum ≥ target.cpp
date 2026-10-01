@@ -18,3 +18,7 @@ public:
         return (minLen == INT_MAX) ? 0 : minLen;
     }
 };
+
+int main() {
+    return 0;
+}

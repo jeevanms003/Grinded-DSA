@@ -17,3 +17,7 @@ class Solution:
             ans = max(ans, currMax)
 
         return ans
+
+
+if __name__ == '__main__':
+    pass

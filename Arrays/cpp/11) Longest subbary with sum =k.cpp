@@ -47,3 +47,7 @@ public:
         return maxLen;
     }
 };
+
+int main() {
+    return 0;
+}

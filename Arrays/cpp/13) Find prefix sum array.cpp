@@ -13,3 +13,7 @@ public:
         return prefix;
     }
 };
+
+int main() {
+    return 0;
+}

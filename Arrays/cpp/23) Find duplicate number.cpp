@@ -14,3 +14,7 @@ public:
         return -1; // safety return
     }
 };
+
+int main() {
+    return 0;
+}

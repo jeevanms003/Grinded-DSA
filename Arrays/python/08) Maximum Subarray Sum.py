@@ -12,3 +12,7 @@ class Solution:
                 currSum = 0
                 
         return maxSum
+
+
+if __name__ == '__main__':
+    pass

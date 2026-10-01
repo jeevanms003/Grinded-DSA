@@ -18,3 +18,7 @@ class Solution:
                 right -= 1
 
         return maxWater
+
+
+if __name__ == '__main__':
+    pass

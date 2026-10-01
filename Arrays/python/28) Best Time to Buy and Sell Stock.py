@@ -13,3 +13,7 @@ class Solution:
             maxProfit = max(maxProfit, profit)
 
         return maxProfit
+
+
+if __name__ == '__main__':
+    pass

@@ -15,3 +15,7 @@ void leftRotate(vector<int>& nums, int k) {
     // Step 3: Reverse entire array
     reverse(nums.begin(), nums.end());
 }
+
+int main() {
+    return 0;
+}

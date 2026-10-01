@@ -12,3 +12,7 @@ class Solution:
                 return num
 
         return -1  # if no non-repeating element
+
+
+if __name__ == '__main__':
+    pass

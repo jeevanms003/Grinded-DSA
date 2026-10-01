@@ -14,3 +14,7 @@ class Solution:
                 count += 1
                 
         return count <= 1
+
+
+if __name__ == '__main__':
+    pass

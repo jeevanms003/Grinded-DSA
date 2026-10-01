@@ -15,3 +15,7 @@ class Solution:
             mp[prefixSum] = mp.get(prefixSum, 0) + 1
             
         return count
+
+
+if __name__ == '__main__':
+    pass

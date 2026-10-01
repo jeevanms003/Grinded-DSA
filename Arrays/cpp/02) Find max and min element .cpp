@@ -30,3 +30,7 @@ int findMinimum(vector<int>& nums) {
 
     return mini;
 }
+
+int main() {
+    return 0;
+}

@@ -9,3 +9,7 @@ class Solution:
                 return num                # duplicate found
 
         return -1 # safety return
+
+
+if __name__ == '__main__':
+    pass

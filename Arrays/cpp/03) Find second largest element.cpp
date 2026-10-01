@@ -51,3 +51,7 @@ int findSecondSmallest(vector<int>& nums) {
 
     return second;
 }
+
+int main() {
+    return 0;
+}

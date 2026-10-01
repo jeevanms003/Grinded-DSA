@@ -21,3 +21,7 @@ obj.reverseArray(nums)
 
 # Output
 print(nums)
+
+
+if __name__ == '__main__':
+    pass

@@ -11,3 +11,7 @@ class Solution:
             mp[nums[i]] = i
             
         return []  # not found (won’t happen in LC)
+
+
+if __name__ == '__main__':
+    pass

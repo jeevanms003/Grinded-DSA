@@ -19,3 +19,7 @@ public:
         return prefix[right] - prefix[left - 1];
     }
 };
+
+int main() {
+    return 0;
+}

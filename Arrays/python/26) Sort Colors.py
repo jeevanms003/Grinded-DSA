@@ -14,3 +14,7 @@ class Solution:
             else: # nums[mid] == 2
                 nums[mid], nums[high] = nums[high], nums[mid]
                 high -= 1
+
+
+if __name__ == '__main__':
+    pass

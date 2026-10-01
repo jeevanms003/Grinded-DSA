@@ -47,3 +47,7 @@ class Solution4:
             xor2 ^= num
 
         return xor1 ^ xor2
+
+
+if __name__ == '__main__':
+    pass

@@ -22,3 +22,7 @@ public:
         return maxWater;
     }
 };
+
+int main() {
+    return 0;
+}

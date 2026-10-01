@@ -18,3 +18,7 @@ public:
         return -1;  // if no non-repeating element
     }
 };
+
+int main() {
+    return 0;
+}

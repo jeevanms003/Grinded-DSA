@@ -20,3 +20,7 @@ public:
         return -1;  // no equilibrium index
     }
 };
+
+int main() {
+    return 0;
+}

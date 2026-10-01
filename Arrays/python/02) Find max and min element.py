@@ -17,3 +17,7 @@ def findMinimum(nums: list[int]) -> int:
             mini = num
             
     return mini
+
+
+if __name__ == '__main__':
+    pass
