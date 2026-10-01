@@ -21,3 +21,14 @@ def reverseArray(nums: list[int]) -> list[int]:
 
 def reverseArrayInbuilt(nums: list[int]) -> None:
     nums.reverse()
+
+nums = list(map(int, input().split()))
+
+# Create object
+obj = Solution()
+
+# Call function
+obj.reverseArray(nums)
+
+# Output
+print(nums)
