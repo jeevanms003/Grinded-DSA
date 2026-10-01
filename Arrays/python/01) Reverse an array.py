@@ -22,6 +22,7 @@ obj.reverseArray(nums)
 # Output
 print(nums)
 
-
 if __name__ == '__main__':
-    pass
+    nums = list(map(int, input().split()))
+    Solution().reverseArray(nums)
+    print(' '.join(map(str, nums)))

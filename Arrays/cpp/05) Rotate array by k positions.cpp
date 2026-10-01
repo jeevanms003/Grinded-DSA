@@ -1,3 +1,4 @@
+#include <iostream>
 #include <vector>
 #include <algorithm>
 using namespace std;
@@ -16,6 +17,19 @@ void leftRotate(vector<int>& nums, int k) {
     reverse(nums.begin(), nums.end());
 }
 
+#include <iostream>
+using namespace std;
+
 int main() {
+    Solution sol;
+    int n_nums;
+    cin >> n_nums;
+    vector<int> nums(n_nums);
+    for(int i=0; i<n_nums; i++) cin >> nums[i];
+    int k;
+    cin >> k;
+    sol.leftRotate(nums, k);
+    for(int x : nums) cout << x << ' ';
+    cout << endl;
     return 0;
 }

@@ -12,6 +12,6 @@ class Solution:
                 
         return j + 1  # New length
 
-
 if __name__ == '__main__':
-    pass
+    nums = list(map(int, input().split()))
+    print(Solution().removeDuplicates(nums))

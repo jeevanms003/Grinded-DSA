@@ -7,6 +7,7 @@ class Solution:
                 nums[i], nums[j] = nums[j], nums[i]
                 j += 1
 
-
 if __name__ == '__main__':
-    pass
+    nums = list(map(int, input().split()))
+    Solution().moveZeroes(nums)
+    print(' '.join(map(str, nums)))

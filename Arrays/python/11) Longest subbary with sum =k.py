@@ -38,6 +38,7 @@ class Solution2:
 
         return maxLen
 
-
 if __name__ == '__main__':
-    pass
+    nums = list(map(int, input().split()))
+    K = int(input())
+    print(Solution().longestSubarray(nums, K))

@@ -1,3 +1,4 @@
+#include <iostream>
 #include <vector>
 #include <climits>
 using namespace std;
@@ -31,6 +32,15 @@ int findMinimum(vector<int>& nums) {
     return mini;
 }
 
+#include <iostream>
+using namespace std;
+
 int main() {
+    Solution sol;
+    int n_nums;
+    cin >> n_nums;
+    vector<int> nums(n_nums);
+    for(int i=0; i<n_nums; i++) cin >> nums[i];
+    cout << sol.findMaximum(nums) << endl;
     return 0;
 }

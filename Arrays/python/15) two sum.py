@@ -12,6 +12,8 @@ class Solution:
             
         return []  # not found (won’t happen in LC)
 
-
 if __name__ == '__main__':
-    pass
+    nums = list(map(int, input().split()))
+    target = int(input())
+    res = Solution().twoSum(nums, target)
+    print(' '.join(map(str, res)))

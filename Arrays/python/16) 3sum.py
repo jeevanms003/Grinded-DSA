@@ -33,6 +33,8 @@ class Solution:
 
         return result
 
-
 if __name__ == '__main__':
-    pass
+    nums = list(map(int, input().split()))
+    res = Solution().threeSum(nums)
+    for r in res:
+        print(' '.join(map(str, r)))

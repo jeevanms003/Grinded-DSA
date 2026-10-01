@@ -14,6 +14,6 @@ class Solution:
 
         return maxProfit
 
-
 if __name__ == '__main__':
-    pass
+    prices = list(map(int, input().split()))
+    print(Solution().maxProfit(prices))

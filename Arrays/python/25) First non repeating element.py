@@ -13,6 +13,6 @@ class Solution:
 
         return -1  # if no non-repeating element
 
-
 if __name__ == '__main__':
-    pass
+    nums = list(map(int, input().split()))
+    print(Solution().firstNonRepeating(nums))

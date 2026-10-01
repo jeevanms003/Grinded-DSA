@@ -19,6 +19,6 @@ class Solution:
 
         return maxWater
 
-
 if __name__ == '__main__':
-    pass
+    height = list(map(int, input().split()))
+    print(Solution().maxArea(height))

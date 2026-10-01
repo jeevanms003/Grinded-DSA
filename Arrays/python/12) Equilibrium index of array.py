@@ -14,6 +14,6 @@ class Solution:
 
         return -1  # no equilibrium index
 
-
 if __name__ == '__main__':
-    pass
+    nums = list(map(int, input().split()))
+    print(Solution().equilibriumIndex(nums))

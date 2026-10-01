@@ -16,6 +16,7 @@ class Solution:
 
         return 0 if minLen == sys.maxsize else minLen
 
-
 if __name__ == '__main__':
-    pass
+    target = int(input())
+    nums = list(map(int, input().split()))
+    print(Solution().minSubArrayLen(target, nums))

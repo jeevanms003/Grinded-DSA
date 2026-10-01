@@ -1,3 +1,5 @@
+#include <iostream>
+using namespace std;
 class Solution {
 public:
     int maxProfit(vector<int>& prices) {
@@ -19,6 +21,15 @@ public:
     }
 };
 
+#include <iostream>
+using namespace std;
+
 int main() {
+    Solution sol;
+    int n_prices;
+    cin >> n_prices;
+    vector<int> prices(n_prices);
+    for(int i=0; i<n_prices; i++) cin >> prices[i];
+    cout << sol.maxProfit(prices) << endl;
     return 0;
 }

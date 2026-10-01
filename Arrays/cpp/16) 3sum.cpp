@@ -1,3 +1,5 @@
+#include <iostream>
+using namespace std;
 class Solution {
 public:
     vector<vector<int>> threeSum(vector<int>& nums) {
@@ -39,6 +41,19 @@ public:
     }
 };
 
+#include <iostream>
+using namespace std;
+
 int main() {
+    Solution sol;
+    int n_nums;
+    cin >> n_nums;
+    vector<int> nums(n_nums);
+    for(int i=0; i<n_nums; i++) cin >> nums[i];
+    vector<vector<int>> res = sol.threeSum(nums);
+    for(auto vec : res) {
+        for(int x : vec) cout << x << ' ';
+        cout << endl;
+    }
     return 0;
 }

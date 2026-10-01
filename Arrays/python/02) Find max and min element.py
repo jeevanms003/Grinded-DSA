@@ -1,23 +1,11 @@
 import sys
 
 def findMaximum(nums: list[int]) -> int:
-    maxi = -sys.maxsize - 1
-    
-    for num in nums:
-        if num > maxi:
-            maxi = num
-            
-    return maxi
+    return max(nums) if nums else -sys.maxsize - 1
 
 def findMinimum(nums: list[int]) -> int:
-    mini = sys.maxsize
-    
-    for num in nums:
-        if num < mini:
-            mini = num
-            
-    return mini
-
+    return min(nums) if nums else sys.maxsize
 
 if __name__ == '__main__':
-    pass
+    nums = list(map(int, input().split()))
+    print(findMaximum(nums))

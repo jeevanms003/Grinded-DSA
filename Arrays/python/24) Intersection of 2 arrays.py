@@ -28,6 +28,8 @@ class Solution2:
                 
         return result
 
-
 if __name__ == '__main__':
-    pass
+    nums1 = list(map(int, input().split()))
+    nums2 = list(map(int, input().split()))
+    res = Solution().intersection(nums1, nums2)
+    print(' '.join(map(str, res)))

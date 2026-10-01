@@ -1,3 +1,5 @@
+#include <iostream>
+using namespace std;
 class Solution {
 public:
     vector<int> mergeArrays(vector<int>& nums1, vector<int>& nums2) {
@@ -29,6 +31,21 @@ public:
     }
 };
 
+#include <iostream>
+using namespace std;
+
 int main() {
+    Solution sol;
+    int n_nums1;
+    cin >> n_nums1;
+    vector<int> nums1(n_nums1);
+    for(int i=0; i<n_nums1; i++) cin >> nums1[i];
+    int n_nums2;
+    cin >> n_nums2;
+    vector<int> nums2(n_nums2);
+    for(int i=0; i<n_nums2; i++) cin >> nums2[i];
+    vector<int> res = sol.mergeArrays(nums1, nums2);
+    for(int x : res) cout << x << ' ';
+    cout << endl;
     return 0;
 }

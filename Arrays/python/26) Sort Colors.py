@@ -15,6 +15,7 @@ class Solution:
                 nums[mid], nums[high] = nums[high], nums[mid]
                 high -= 1
 
-
 if __name__ == '__main__':
-    pass
+    nums = list(map(int, input().split()))
+    Solution().sortColors(nums)
+    print(' '.join(map(str, nums)))

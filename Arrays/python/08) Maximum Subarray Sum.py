@@ -13,6 +13,6 @@ class Solution:
                 
         return maxSum
 
-
 if __name__ == '__main__':
-    pass
+    nums = list(map(int, input().split()))
+    print(Solution().maxSubArray(nums))

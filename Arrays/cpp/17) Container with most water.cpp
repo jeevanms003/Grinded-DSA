@@ -1,3 +1,5 @@
+#include <iostream>
+using namespace std;
 class Solution {
 public:
     int maxArea(vector<int>& height) {
@@ -23,6 +25,15 @@ public:
     }
 };
 
+#include <iostream>
+using namespace std;
+
 int main() {
+    Solution sol;
+    int n_height;
+    cin >> n_height;
+    vector<int> height(n_height);
+    for(int i=0; i<n_height; i++) cin >> height[i];
+    cout << sol.maxArea(height) << endl;
     return 0;
 }

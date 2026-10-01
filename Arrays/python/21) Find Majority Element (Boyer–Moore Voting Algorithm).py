@@ -27,6 +27,6 @@ class Solution2:
 
         return -1 # safety return
 
-
 if __name__ == '__main__':
-    pass
+    nums = list(map(int, input().split()))
+    print(Solution().majorityElement(nums))

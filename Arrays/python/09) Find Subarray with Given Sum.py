@@ -34,6 +34,8 @@ class Solution2:
 
         return [-1, -1]
 
-
 if __name__ == '__main__':
-    pass
+    nums = list(map(int, input().split()))
+    target = int(input())
+    res = Solution().subarraySum(nums, target)
+    print(' '.join(map(str, res)))

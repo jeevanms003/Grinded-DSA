@@ -1,3 +1,5 @@
+#include <iostream>
+using namespace std;
 class Solution {
 public:
     int maxSubarraySum(vector<int>& nums, int k) {
@@ -22,6 +24,17 @@ public:
     }
 };
 
+#include <iostream>
+using namespace std;
+
 int main() {
+    Solution sol;
+    int n_nums;
+    cin >> n_nums;
+    vector<int> nums(n_nums);
+    for(int i=0; i<n_nums; i++) cin >> nums[i];
+    int k;
+    cin >> k;
+    cout << sol.maxSubarraySum(nums, k) << endl;
     return 0;
 }

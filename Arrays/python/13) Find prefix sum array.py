@@ -1,17 +1,10 @@
+from itertools import accumulate
+
 class Solution:
     def prefixSumArray(self, nums: list[int]) -> list[int]:
-        n = len(nums)
-        if n == 0:
-            return []
-            
-        prefix = [0] * n
-        prefix[0] = nums[0]
-
-        for i in range(1, n):
-            prefix[i] = prefix[i - 1] + nums[i]
-
-        return prefix
-
+        return list(accumulate(nums))
 
 if __name__ == '__main__':
-    pass
+    nums = list(map(int, input().split()))
+    res = Solution().prefixSumArray(nums)
+    print(' '.join(map(str, res)))

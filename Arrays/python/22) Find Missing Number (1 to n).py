@@ -48,6 +48,6 @@ class Solution4:
 
         return xor1 ^ xor2
 
-
 if __name__ == '__main__':
-    pass
+    nums = list(map(int, input().split()))
+    print(Solution().missingNumber(nums))

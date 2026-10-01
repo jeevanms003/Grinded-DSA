@@ -17,6 +17,7 @@ class NumArray:
         
         return self.prefix[right] - self.prefix[left - 1]
 
-
 if __name__ == '__main__':
-    pass
+    left = int(input())
+    right = int(input())
+    print(sumRange(left, right))

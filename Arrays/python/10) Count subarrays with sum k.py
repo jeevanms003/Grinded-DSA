@@ -16,6 +16,7 @@ class Solution:
             
         return count
 
-
 if __name__ == '__main__':
-    pass
+    nums = list(map(int, input().split()))
+    k = int(input())
+    print(Solution().subarraySum(nums, k))

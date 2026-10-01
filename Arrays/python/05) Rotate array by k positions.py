@@ -13,6 +13,8 @@ def leftRotate(nums: list[int], k: int) -> None:
     # Step 3: Reverse entire array
     nums[:] = reversed(nums[:])
 
-
 if __name__ == '__main__':
-    pass
+    nums = list(map(int, input().split()))
+    k = int(input())
+    leftRotate(nums, k)
+    print(' '.join(map(str, nums)))
